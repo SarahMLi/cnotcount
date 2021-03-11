@@ -1,0 +1,27 @@
+The total number of cnot in the circuit before synthesis: 3
+The total number of cnot in the synthesized circuit: 13
+Overhead: 433.3333333333333%
+The program's running time is 92389138 nanoseconds.
+
+Following is the synthesized circuit.
+H[6]
+H[1]
+T+[2]
+T+[7]
+T+[6]
+T+[8]
+T+[3]
+T+[4]
+CNOT[9, 6]
+CNOT[6, 3]
+CNOT[3, 2]
+CNOT[6, 3]
+CNOT[9, 6]
+CNOT[6, 3]
+CNOT[3, 2]
+CNOT[6, 3]
+CNOT[6, 5]
+CNOT[5, 4]
+CNOT[6, 5]
+CNOT[5, 4]
+CNOT[6, 9]
